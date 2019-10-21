@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Free CRM Test Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.ak.Listener.CustomListener"/>
+  </listeners>
+  <test name="Login Page Test(failed)">
+    <classes>
+      <class name="com.ak.testCases.LoginPageTest">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.ak.testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Login Page Test(failed) -->
+  <test name="Home Page Test(failed)">
+    <classes>
+      <class name="com.ak.testCases.HomePageTest">
+        <methods>
+          <include name="homePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="homePageNameLabelTest"/>
+          <include name="init"/>
+          <include name="homePageContactsLinkTest"/>
+        </methods>
+      </class> <!-- com.ak.testCases.HomePageTest -->
+    </classes>
+  </test> <!-- Home Page Test(failed) -->
+  <test name="Contacts Page Test(failed)">
+    <classes>
+      <class name="com.ak.testCases.ContactsPageTest">
+        <methods>
+          <include name="validateContactsadded"/>
+          <include name="init"/>
+          <include name="ContactsPageValidateContactsLabel"/>
+          <include name="ContactsPagevalidateNewContact"/>
+          <include name="ContactsPagevalidateRecordsWarning"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ak.testCases.ContactsPageTest -->
+    </classes>
+  </test> <!-- Contacts Page Test(failed) -->
+</suite> <!-- Failed suite [Free CRM Test Suite] -->

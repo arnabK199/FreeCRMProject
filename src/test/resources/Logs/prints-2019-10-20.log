@@ -1,0 +1,5 @@
+20:35:33.169 [main] INFO  com.ak.base.BaseTest - Before navigating to: 'https://freecrm.com/'
+20:35:36.263 [main] INFO  com.ak.base.BaseTest - Navigated to:'https://freecrm.com/'
+20:35:36.264 [main] INFO  com.ak.base.BaseTest - Trying to find Element By : By.cssSelector: .btn.btn-primary.btn-xs-2.btn-shadow.btn-rect.btn-icon.btn-icon-left
+20:35:36.293 [main] INFO  com.ak.base.BaseTest - Found Element By : By.cssSelector: .btn.btn-primary.btn-xs-2.btn-shadow.btn-rect.btn-icon.btn-icon-left
+20:35:36.293 [main] INFO  com.ak.base.BaseTest - Trying to click on: [[ChromeDriver: chrome on XP (6486ac81cffe86d2a18caee6702ab69d)] -> css selector: .btn.btn-primary.btn-xs-2.btn-shadow.btn-rect.btn-icon.btn-icon-left]

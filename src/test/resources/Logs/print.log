@@ -1,0 +1,11 @@
+20:35:38.185 [main] INFO  com.ak.base.BaseTest - Clicked on: [[ChromeDriver: chrome on XP (6486ac81cffe86d2a18caee6702ab69d)] -> css selector: .btn.btn-primary.btn-xs-2.btn-shadow.btn-rect.btn-icon.btn-icon-left]
+20:35:38.215 [main] INFO  com.ak.base.BaseTest - Trying to find Element By : By.name: email
+21:50:49.902 [main] INFO  com.ak.base.BaseTest - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AKUNDU18', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\ARNABK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:4257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6486ac81cffe86d2a18caee6702ab69d
+*** Element info: {Using=name, value=email}

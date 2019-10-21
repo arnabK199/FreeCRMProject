@@ -1,0 +1,11 @@
+com\ak\pages\TasksPage.class
+com\ak\Listener\CustomListener.class
+com\ak\pages\HomePage.class
+com\ak\pages\LoginPage.class
+com\ak\base\BaseTest.class
+com\ak\pages\DealsPage.class
+com\ak\pages\ContactsPage.class
+com\ak\utils\ExtentManager.class
+com\ak\utils\WebEventListener.class
+com\ak\utils\ExcelReader.class
+com\ak\utils\TestUtils.class
