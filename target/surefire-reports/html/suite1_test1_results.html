@@ -12,35 +12,33 @@
 <body>
 <h1>Login Page Test</h1>
 <p>
-  Test duration: 22.565s
+  Test duration: 17.634s
 </p>
 
-
-
-  <table class="resultsTable">
-    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
-          <tr>
-        <td colspan="3" class="group">com.ak.testCases.LoginPageTest</td>
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
+              <tr class="group">
+        <td colspan="3">com.ak.testCases.LoginPageTest</td>
       </tr>
             
 <tr>
   <td class="method">
-                  loginTest
+                  init
       </td>
   <td class="duration">
-    0.345s
+    17.630s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.ElementNotInteractableException: Element &lt;a class=&quot;btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left&quot; href=&quot;https://ui.freecrm.com&quot;&gt; could not be scrolled into view<br/>
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Timeout loading page after 10000ms<br/>
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
-System info: host: &apos;AKUNDU18&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;<br/>
+System info: host: &apos;AKUNDU18&apos;, ip: &apos;172.21.48.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;<br/>
 Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191009172106, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 19320, moz:profile: C:\Users\ArnabKundu\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
-Session ID: d3d6f923-0726-482f-b490-9424d4b4db17</b></a><br />
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191009172106, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12872, moz:profile: C:\Users\ArnabKundu\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: cc5edd59-7813-4d78-82a4-27a4d9f7fe5a</b></a><br />
     <div class="stackTrace" id="exception-0">
               sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
               sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
@@ -52,29 +50,24 @@ Session ID: d3d6f923-0726-482f-b490-9424d4b4db17</b></a><br />
               org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
               org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
               org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
-              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)<br />
-              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
               java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)<br />
-              com.sun.proxy.$Proxy11.click(Unknown Source)<br />
-              org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)<br />
-              com.sun.proxy.$Proxy10.click(Unknown Source)<br />
-              com.ak.pages.LoginPage.doLogin(LoginPage.java:44)<br />
-              com.ak.testCases.LoginPageTest.loginTest(LoginPageTest.java:42)<br />
+              org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)<br />
+              com.sun.proxy.$Proxy9.get(Unknown Source)<br />
+              org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)<br />
+              com.ak.base.BaseTest.initConfig(BaseTest.java:62)<br />
+              com.ak.testCases.LoginPageTest.init(LoginPageTest.java:31)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
               java.lang.reflect.Method.invoke(Method.java:498)<br />
               org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:599)<br />
               org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
               org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
               org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
@@ -91,39 +84,76 @@ Session ID: d3d6f923-0726-482f-b490-9424d4b4db17</b></a><br />
               org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
               org.testng.TestNG.runSuites(TestNG.java:1144)<br />
               org.testng.TestNG.run(TestNG.java:1115)<br />
-              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)<br />
-              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)<br />
-              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)<br />
                 </div>
       </td>
 </tr>
-      </table>
+    
+          <tr><td colspan="3">&nbsp;</td></tr>
+      <tr><td colspan="3" class="header skippedConfig">Skipped Configuration</td></tr>
+                    <tr>
+          <td colspan="3" class="group">com.ak.testCases.LoginPageTest</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  init
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+            </table>
 
 
-  <table class="resultsTable">
-    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
           <tr>
         <td colspan="3" class="group">com.ak.testCases.LoginPageTest</td>
       </tr>
             
 <tr>
   <td class="method">
-                  loginPageTitleTest
+                  <span class="description" title="This is  test to validate the title of the Page">loginPageTitleTest</span>
       </td>
   <td class="duration">
-    0.020s
+    0.004s
   </td>
   <td class="result">
+                               
+    
         
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="This is  test to validate the Login Functionality of the Login Page">loginTest</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
     
         
 
       </td>
 </tr>
       </table>
+
   
 </body>
 </html>

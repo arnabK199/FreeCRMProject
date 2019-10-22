@@ -1,35 +1,7 @@
-20/10/2019 23:42:03 devpinoyLogger Before navigating to: 'https://freecrm.com/'
-20/10/2019 23:42:09 devpinoyLogger Navigated to:'https://freecrm.com/'
-20/10/2019 23:42:14 devpinoyLogger Before navigating to: 'https://freecrm.com/'
-20/10/2019 23:42:18 devpinoyLogger Navigated to:'https://freecrm.com/'
-20/10/2019 23:42:18 devpinoyLogger Trying to find Element By : By.cssSelector: .btn.btn-primary.btn-xs-2.btn-shadow.btn-rect.btn-icon.btn-icon-left
-20/10/2019 23:42:18 devpinoyLogger Found Element By : By.cssSelector: .btn.btn-primary.btn-xs-2.btn-shadow.btn-rect.btn-icon.btn-icon-left
-20/10/2019 23:42:18 devpinoyLogger Trying to click on: [[FirefoxDriver: firefox on WINDOWS (d3d6f923-0726-482f-b490-9424d4b4db17)] -> css selector: .btn.btn-primary.btn-xs-2.btn-shadow.btn-rect.btn-icon.btn-icon-left]
-20/10/2019 23:42:18 devpinoyLogger Exception occured: org.openqa.selenium.ElementNotInteractableException: Element <a class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left" href="https://ui.freecrm.com"> could not be scrolled into view
+22/10/2019 09:29:02 devpinoyLogger Before navigating to: 'https://freecrm.com/'
+22/10/2019 09:29:12 devpinoyLogger Exception occured: org.openqa.selenium.TimeoutException: Timeout loading page after 10000ms
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'AKUNDU18', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'AKUNDU18', ip: '172.21.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191009172106, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 19320, moz:profile: C:\Users\ArnabKundu\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d3d6f923-0726-482f-b490-9424d4b4db17
-20/10/2019 23:42:24 devpinoyLogger Before navigating to: 'https://freecrm.com/'
-20/10/2019 23:42:28 devpinoyLogger Navigated to:'https://freecrm.com/'
-20/10/2019 23:42:28 devpinoyLogger Trying to find Element By : By.cssSelector: .btn.btn-primary.btn-xs-2.btn-shadow.btn-rect.btn-icon.btn-icon-left
-20/10/2019 23:42:28 devpinoyLogger Found Element By : By.cssSelector: .btn.btn-primary.btn-xs-2.btn-shadow.btn-rect.btn-icon.btn-icon-left
-20/10/2019 23:42:28 devpinoyLogger Trying to click on: [[FirefoxDriver: firefox on WINDOWS (ea9ffcff-3ca7-496d-9b06-cc583c1e6e34)] -> css selector: .btn.btn-primary.btn-xs-2.btn-shadow.btn-rect.btn-icon.btn-icon-left]
-20/10/2019 23:42:28 devpinoyLogger Exception occured: org.openqa.selenium.ElementNotInteractableException: Element <a class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left" href="https://ui.freecrm.com"> could not be scrolled into view
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'AKUNDU18', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191009172106, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 25592, moz:profile: C:\Users\ArnabKundu\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ea9ffcff-3ca7-496d-9b06-cc583c1e6e34
-20/10/2019 23:42:34 devpinoyLogger Before navigating to: 'https://freecrm.com/'
-20/10/2019 23:42:38 devpinoyLogger Navigated to:'https://freecrm.com/'
-20/10/2019 23:42:38 devpinoyLogger Trying to find Element By : By.cssSelector: .btn.btn-primary.btn-xs-2.btn-shadow.btn-rect.btn-icon.btn-icon-left
-20/10/2019 23:42:38 devpinoyLogger Found Element By : By.cssSelector: .btn.btn-primary.btn-xs-2.btn-shadow.btn-rect.btn-icon.btn-icon-left
-20/10/2019 23:42:38 devpinoyLogger Trying to click on: [[FirefoxDriver: firefox on WINDOWS (6a0d3df2-fce2-4cf2-bad9-14b4e8d3ff19)] -> css selector: .btn.btn-primary.btn-xs-2.btn-shadow.btn-rect.btn-icon.btn-icon-left]
-20/10/2019 23:42:38 devpinoyLogger Exception occured: org.openqa.selenium.ElementNotInteractableException: Element <a class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left" href="https://ui.freecrm.com"> could not be scrolled into view
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'AKUNDU18', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191009172106, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 18968, moz:profile: C:\Users\ArnabKundu\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6a0d3df2-fce2-4cf2-bad9-14b4e8d3ff19
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191009172106, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12872, moz:profile: C:\Users\ArnabKundu\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cc5edd59-7813-4d78-82a4-27a4d9f7fe5a

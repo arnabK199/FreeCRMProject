@@ -8,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.ak.base.BaseTest;
 
+import io.qameta.allure.Step;
+
 public class LoginPage extends BaseTest{
 	
 	public LoginPage() throws FileNotFoundException {
@@ -32,14 +34,17 @@ public class LoginPage extends BaseTest{
 	@FindBy(css=".ui.fluid.large.blue.submit.button")
 	public WebElement submitBtn;
 	
+	@Step("Validate the Title of the Login Page Step")
 	public String validateTitle() {
 		return driver.getTitle();
 	}
 	
+	@Step("Validate the CRM Logo of the Login Page Step")
 	public boolean validateCRMLogo() {
 		return crmLogo.isDisplayed();
 	}
 	
+	@Step("Validate the Login Funtionality with ID: {0} and Password: {1} Step")
 	public HomePage doLogin(String userName, String pwd) throws FileNotFoundException {
 		logInBtn.click();
 		emailField.sendKeys(userName);
